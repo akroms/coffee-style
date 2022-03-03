@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coffee Style</title>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <!-- Style files -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+          <div class="container p-lg-2">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand fw-bold" href="#">CoffeeStyle.</a>
+
+            <!-- Navbar Toggle -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav w-100 justify-content-evenly align-items-center text-uppercase">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Styleguide</a>
+                </li>
+
+                <!-- Navbar Cart -->
+                <li class="nav-item">
+                  <a class="nav-link d-flex align-items-center" href="#">
+                    <img src="./assets/icons/cart2.svg" alt="cart icon">
+                    <span class="mx-2">Cart</span>
+                    <div id="cart-count" class="cart-count text-light px-2 bg-secondary rounded-circle">
+                      0
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Header Section -->
+        <header class="header text-light">
+          <div class="container">
+            <div class="header-section vh-100 ">
+              <div class="header-content d-flex flex-column justify-content-center align-items-center vh-100">
+                <p class="header-showcase">
+                  Best place to buy design
+                </p>
+                <h1 class="header-title">
+                  Coffee Mugs
+                </h1>
+                <p class="header-subtitle">
+                  The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
+                </p>
+                <a href="#" class="header-btn btn btn-primary rounded-0 px-4">
+                  Explore Our Products
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Script files -->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>

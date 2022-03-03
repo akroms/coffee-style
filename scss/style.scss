@@ -1,0 +1,21 @@
+// Colors
+$primary: white;
+$secondary: #1d1f2e;
+
+// Fonts
+$font-family-sans-serif: Karla;
+$font-family-monospace: Karla;
+
+.header {
+    background-color: #050827;
+    &-section {
+        background-image: url("../assets/backgrund.png");
+        background-size: cover;
+        background-position: center;
+
+        
+    }
+}
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
