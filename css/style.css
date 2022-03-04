@@ -6,6 +6,13 @@
   background-color: #1d1f2e1a;
 }
 
+.line-dark {
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
 .header {
   background-color: #050827;
 }
@@ -41,6 +48,18 @@
   background-position: center;
   background-size: cover;
   height: 53vh;
+}
+
+.sign-input {
+  max-width: 500px;
+  display: inline-block !important;
+  border-color: rgba(255, 255, 255, 0.151) !important;
+  letter-spacing: 1px;
+}
+.sign-btn {
+  margin-left: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /*!
