@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.line {
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background-color: #1d1f2e1a;
+}
+
 .header {
   background-color: #050827;
 }
@@ -6,6 +13,27 @@
   background-image: url("../assets/backgrund.png");
   background-size: cover;
   background-position: center;
+}
+
+.about-section {
+  height: 400px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.about-btn {
+  color: #a25f4b !important;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid rgba(162, 95, 75, 0.3);
+  text-decoration: none;
+}
+
+.featured-title {
+  letter-spacing: 2px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.featured-card__subtitle .price {
+  color: #a25f4b;
 }
 
 /*!
@@ -655,7 +683,7 @@ progress {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1000px;
   }
 }
 @media (min-width: 1400px) {
